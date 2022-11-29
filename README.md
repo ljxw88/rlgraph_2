@@ -25,7 +25,11 @@ The following lines launch the training of our autotelic agents. When using sema
 
 ```mpirun -np 24 python train.py --algo semantic```
 
+```mpirun -np 2 --allow-run-as-root python train.py --algo semantic``` (for my own pc)
+
 ```mpirun -np 24 python train.py --algo continuous```
+
+```mpirun -np 2 --allow-run-as-root python train.py --algo continuous``` (for my own pc)
 
 Note: The folder configs/ contains the hyper-parameters used for both types of goal spaces. 
 
